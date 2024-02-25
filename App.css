@@ -1,0 +1,72 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.search-form {
+  background-color: #f2f2f2;
+  padding: 50px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* button:hover {
+  background-color: #45a049;
+} */
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+body {
+  background-image: url('flight.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.booking-details {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2em; /* Adjust the font size as needed */
+  background-color: #fff; /* Set the background color */
+  display: inline-block; /* Make the background only cover the content width */
+}
+
+.booking-details p {
+  margin: 0;
+}
